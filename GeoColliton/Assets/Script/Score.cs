@@ -16,7 +16,6 @@ public class Score : MonoBehaviour
         string timeString = roundedTime.ToString();
         // Tjekker om roundedTime bliver afrundet til et heltal, hvis dette er tilfældet, tilføjer vi ".000" til timeString,
         // for at sørge for at timeString har de tre decimaler vi ønsker.
-        //Tak for hjælpen
         if (roundedTime.ToString().Equals(Math.Round(time).ToString()))
         {
             String finalTimeString = timeString + ".000";
